@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1036" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AnimationCollectionViewCell" id="Hm3-Kr-4r0" customClass="AnimationCollectionViewCell" customModule="day20_CollectionViewAnimation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="207"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="207"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DPL-eR-otX">
+                        <rect key="frame" x="0.0" y="0.0" width="340" height="140"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="140" id="2Gz-rB-1bc"/>
+                        </constraints>
+                    </imageView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="V9I-w2-kmV">
+                        <rect key="frame" x="0.0" y="140" width="340" height="67"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="km5-TU-wBR">
+                        <rect key="frame" x="20" y="20" width="14" height="24"/>
+                        <state key="normal" image="Back-icon"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="DPL-eR-otX" firstAttribute="top" secondItem="Hm3-Kr-4r0" secondAttribute="top" id="38q-Ck-zkc"/>
+                <constraint firstAttribute="bottom" secondItem="V9I-w2-kmV" secondAttribute="bottom" id="8dC-Gx-oa3"/>
+                <constraint firstItem="V9I-w2-kmV" firstAttribute="leading" secondItem="Hm3-Kr-4r0" secondAttribute="leading" id="GN7-Pf-3ti"/>
+                <constraint firstItem="km5-TU-wBR" firstAttribute="top" secondItem="Hm3-Kr-4r0" secondAttribute="top" constant="20" id="Lwc-ff-Tdm"/>
+                <constraint firstItem="V9I-w2-kmV" firstAttribute="top" secondItem="DPL-eR-otX" secondAttribute="bottom" id="Lzl-4J-EtN"/>
+                <constraint firstItem="km5-TU-wBR" firstAttribute="leading" secondItem="Hm3-Kr-4r0" secondAttribute="leading" constant="20" id="eDp-oo-Lz8"/>
+                <constraint firstAttribute="trailing" secondItem="V9I-w2-kmV" secondAttribute="trailing" id="jFM-2Z-9Ec"/>
+                <constraint firstAttribute="trailing" secondItem="DPL-eR-otX" secondAttribute="trailing" id="wzw-SM-XgS"/>
+                <constraint firstItem="DPL-eR-otX" firstAttribute="leading" secondItem="Hm3-Kr-4r0" secondAttribute="leading" id="zUT-bc-xRI"/>
+            </constraints>
+            <size key="customSize" width="263" height="137"/>
+            <connections>
+                <outlet property="animationImageView" destination="DPL-eR-otX" id="JLw-aX-GGx"/>
+                <outlet property="animationTextView" destination="V9I-w2-kmV" id="JK0-KD-j8V"/>
+                <outlet property="backButton" destination="km5-TU-wBR" id="XzI-UX-Esp"/>
+            </connections>
+            <point key="canvasLocation" x="18" y="102.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Back-icon" width="14" height="24"/>
+    </resources>
+</document>

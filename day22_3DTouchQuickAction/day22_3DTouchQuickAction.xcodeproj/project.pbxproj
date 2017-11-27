@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A618D6781FCBDFC300E7F54A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618D6771FCBDFC300E7F54A /* AppDelegate.swift */; };
+		A618D67A1FCBDFC300E7F54A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618D6791FCBDFC300E7F54A /* ViewController.swift */; };
+		A618D67D1FCBDFC300E7F54A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A618D67B1FCBDFC300E7F54A /* Main.storyboard */; };
+		A618D67F1FCBDFC300E7F54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A618D67E1FCBDFC300E7F54A /* Assets.xcassets */; };
+		A618D6821FCBDFC300E7F54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A618D6801FCBDFC300E7F54A /* LaunchScreen.storyboard */; };
+		A618D68D1FCBDFC300E7F54A /* day22_3DTouchQuickActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618D68C1FCBDFC300E7F54A /* day22_3DTouchQuickActionTests.swift */; };
+		A618D6981FCBDFC300E7F54A /* day22_3DTouchQuickActionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618D6971FCBDFC300E7F54A /* day22_3DTouchQuickActionUITests.swift */; };
+		A618D6A61FCBE06D00E7F54A /* SwitchWiFiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618D6A51FCBE06D00E7F54A /* SwitchWiFiViewController.swift */; };
+		A618D6A81FCBE09000E7F54A /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618D6A71FCBE09000E7F54A /* ScanViewController.swift */; };
+		A618D6AA1FCBE0A200E7F54A /* RunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618D6A91FCBE0A200E7F54A /* RunViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A618D6891FCBDFC300E7F54A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A618D66C1FCBDFC300E7F54A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A618D6731FCBDFC300E7F54A;
+			remoteInfo = day22_3DTouchQuickAction;
+		};
+		A618D6941FCBDFC300E7F54A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A618D66C1FCBDFC300E7F54A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A618D6731FCBDFC300E7F54A;
+			remoteInfo = day22_3DTouchQuickAction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A618D6741FCBDFC300E7F54A /* day22_3DTouchQuickAction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day22_3DTouchQuickAction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A618D6771FCBDFC300E7F54A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A618D6791FCBDFC300E7F54A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A618D67C1FCBDFC300E7F54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A618D67E1FCBDFC300E7F54A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A618D6811FCBDFC300E7F54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A618D6831FCBDFC300E7F54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A618D6881FCBDFC300E7F54A /* day22_3DTouchQuickActionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = day22_3DTouchQuickActionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A618D68C1FCBDFC300E7F54A /* day22_3DTouchQuickActionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day22_3DTouchQuickActionTests.swift; sourceTree = "<group>"; };
+		A618D68E1FCBDFC300E7F54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A618D6931FCBDFC300E7F54A /* day22_3DTouchQuickActionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = day22_3DTouchQuickActionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A618D6971FCBDFC300E7F54A /* day22_3DTouchQuickActionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day22_3DTouchQuickActionUITests.swift; sourceTree = "<group>"; };
+		A618D6991FCBDFC300E7F54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A618D6A51FCBE06D00E7F54A /* SwitchWiFiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchWiFiViewController.swift; sourceTree = "<group>"; };
+		A618D6A71FCBE09000E7F54A /* ScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		A618D6A91FCBE0A200E7F54A /* RunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A618D6711FCBDFC300E7F54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A618D6851FCBDFC300E7F54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A618D6901FCBDFC300E7F54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A618D66B1FCBDFC300E7F54A = {
+			isa = PBXGroup;
+			children = (
+				A618D6761FCBDFC300E7F54A /* day22_3DTouchQuickAction */,
+				A618D68B1FCBDFC300E7F54A /* day22_3DTouchQuickActionTests */,
+				A618D6961FCBDFC300E7F54A /* day22_3DTouchQuickActionUITests */,
+				A618D6751FCBDFC300E7F54A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A618D6751FCBDFC300E7F54A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A618D6741FCBDFC300E7F54A /* day22_3DTouchQuickAction.app */,
+				A618D6881FCBDFC300E7F54A /* day22_3DTouchQuickActionTests.xctest */,
+				A618D6931FCBDFC300E7F54A /* day22_3DTouchQuickActionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A618D6761FCBDFC300E7F54A /* day22_3DTouchQuickAction */ = {
+			isa = PBXGroup;
+			children = (
+				A618D6771FCBDFC300E7F54A /* AppDelegate.swift */,
+				A618D6791FCBDFC300E7F54A /* ViewController.swift */,
+				A618D6A51FCBE06D00E7F54A /* SwitchWiFiViewController.swift */,
+				A618D6A71FCBE09000E7F54A /* ScanViewController.swift */,
+				A618D6A91FCBE0A200E7F54A /* RunViewController.swift */,
+				A618D67B1FCBDFC300E7F54A /* Main.storyboard */,
+				A618D67E1FCBDFC300E7F54A /* Assets.xcassets */,
+				A618D6801FCBDFC300E7F54A /* LaunchScreen.storyboard */,
+				A618D6831FCBDFC300E7F54A /* Info.plist */,
+			);
+			path = day22_3DTouchQuickAction;
+			sourceTree = "<group>";
+		};
+		A618D68B1FCBDFC300E7F54A /* day22_3DTouchQuickActionTests */ = {
+			isa = PBXGroup;
+			children = (
+				A618D68C1FCBDFC300E7F54A /* day22_3DTouchQuickActionTests.swift */,
+				A618D68E1FCBDFC300E7F54A /* Info.plist */,
+			);
+			path = day22_3DTouchQuickActionTests;
+			sourceTree = "<group>";
+		};
+		A618D6961FCBDFC300E7F54A /* day22_3DTouchQuickActionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A618D6971FCBDFC300E7F54A /* day22_3DTouchQuickActionUITests.swift */,
+				A618D6991FCBDFC300E7F54A /* Info.plist */,
+			);
+			path = day22_3DTouchQuickActionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A618D6731FCBDFC300E7F54A /* day22_3DTouchQuickAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A618D69C1FCBDFC300E7F54A /* Build configuration list for PBXNativeTarget "day22_3DTouchQuickAction" */;
+			buildPhases = (
+				A618D6701FCBDFC300E7F54A /* Sources */,
+				A618D6711FCBDFC300E7F54A /* Frameworks */,
+				A618D6721FCBDFC300E7F54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = day22_3DTouchQuickAction;
+			productName = day22_3DTouchQuickAction;
+			productReference = A618D6741FCBDFC300E7F54A /* day22_3DTouchQuickAction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A618D6871FCBDFC300E7F54A /* day22_3DTouchQuickActionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A618D69F1FCBDFC300E7F54A /* Build configuration list for PBXNativeTarget "day22_3DTouchQuickActionTests" */;
+			buildPhases = (
+				A618D6841FCBDFC300E7F54A /* Sources */,
+				A618D6851FCBDFC300E7F54A /* Frameworks */,
+				A618D6861FCBDFC300E7F54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A618D68A1FCBDFC300E7F54A /* PBXTargetDependency */,
+			);
+			name = day22_3DTouchQuickActionTests;
+			productName = day22_3DTouchQuickActionTests;
+			productReference = A618D6881FCBDFC300E7F54A /* day22_3DTouchQuickActionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A618D6921FCBDFC300E7F54A /* day22_3DTouchQuickActionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A618D6A21FCBDFC300E7F54A /* Build configuration list for PBXNativeTarget "day22_3DTouchQuickActionUITests" */;
+			buildPhases = (
+				A618D68F1FCBDFC300E7F54A /* Sources */,
+				A618D6901FCBDFC300E7F54A /* Frameworks */,
+				A618D6911FCBDFC300E7F54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A618D6951FCBDFC300E7F54A /* PBXTargetDependency */,
+			);
+			name = day22_3DTouchQuickActionUITests;
+			productName = day22_3DTouchQuickActionUITests;
+			productReference = A618D6931FCBDFC300E7F54A /* day22_3DTouchQuickActionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A618D66C1FCBDFC300E7F54A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = huig;
+				TargetAttributes = {
+					A618D6731FCBDFC300E7F54A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZML32S4D5M;
+						ProvisioningStyle = Automatic;
+					};
+					A618D6871FCBDFC300E7F54A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A618D6731FCBDFC300E7F54A;
+					};
+					A618D6921FCBDFC300E7F54A = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A618D6731FCBDFC300E7F54A;
+					};
+				};
+			};
+			buildConfigurationList = A618D66F1FCBDFC300E7F54A /* Build configuration list for PBXProject "day22_3DTouchQuickAction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A618D66B1FCBDFC300E7F54A;
+			productRefGroup = A618D6751FCBDFC300E7F54A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A618D6731FCBDFC300E7F54A /* day22_3DTouchQuickAction */,
+				A618D6871FCBDFC300E7F54A /* day22_3DTouchQuickActionTests */,
+				A618D6921FCBDFC300E7F54A /* day22_3DTouchQuickActionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A618D6721FCBDFC300E7F54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618D6821FCBDFC300E7F54A /* LaunchScreen.storyboard in Resources */,
+				A618D67F1FCBDFC300E7F54A /* Assets.xcassets in Resources */,
+				A618D67D1FCBDFC300E7F54A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A618D6861FCBDFC300E7F54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A618D6911FCBDFC300E7F54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A618D6701FCBDFC300E7F54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618D67A1FCBDFC300E7F54A /* ViewController.swift in Sources */,
+				A618D6A61FCBE06D00E7F54A /* SwitchWiFiViewController.swift in Sources */,
+				A618D6781FCBDFC300E7F54A /* AppDelegate.swift in Sources */,
+				A618D6A81FCBE09000E7F54A /* ScanViewController.swift in Sources */,
+				A618D6AA1FCBE0A200E7F54A /* RunViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A618D6841FCBDFC300E7F54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618D68D1FCBDFC300E7F54A /* day22_3DTouchQuickActionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A618D68F1FCBDFC300E7F54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A618D6981FCBDFC300E7F54A /* day22_3DTouchQuickActionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A618D68A1FCBDFC300E7F54A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A618D6731FCBDFC300E7F54A /* day22_3DTouchQuickAction */;
+			targetProxy = A618D6891FCBDFC300E7F54A /* PBXContainerItemProxy */;
+		};
+		A618D6951FCBDFC300E7F54A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A618D6731FCBDFC300E7F54A /* day22_3DTouchQuickAction */;
+			targetProxy = A618D6941FCBDFC300E7F54A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A618D67B1FCBDFC300E7F54A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A618D67C1FCBDFC300E7F54A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A618D6801FCBDFC300E7F54A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A618D6811FCBDFC300E7F54A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A618D69A1FCBDFC300E7F54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A618D69B1FCBDFC300E7F54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A618D69D1FCBDFC300E7F54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = day22_3DTouchQuickAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huihui.card1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A618D69E1FCBDFC300E7F54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = day22_3DTouchQuickAction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huihui.card1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A618D6A01FCBDFC300E7F54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = day22_3DTouchQuickActionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day22-3DTouchQuickActionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day22_3DTouchQuickAction.app/day22_3DTouchQuickAction";
+			};
+			name = Debug;
+		};
+		A618D6A11FCBDFC300E7F54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = day22_3DTouchQuickActionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day22-3DTouchQuickActionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day22_3DTouchQuickAction.app/day22_3DTouchQuickAction";
+			};
+			name = Release;
+		};
+		A618D6A31FCBDFC300E7F54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = day22_3DTouchQuickActionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day22-3DTouchQuickActionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = day22_3DTouchQuickAction;
+			};
+			name = Debug;
+		};
+		A618D6A41FCBDFC300E7F54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = day22_3DTouchQuickActionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day22-3DTouchQuickActionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = day22_3DTouchQuickAction;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A618D66F1FCBDFC300E7F54A /* Build configuration list for PBXProject "day22_3DTouchQuickAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618D69A1FCBDFC300E7F54A /* Debug */,
+				A618D69B1FCBDFC300E7F54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A618D69C1FCBDFC300E7F54A /* Build configuration list for PBXNativeTarget "day22_3DTouchQuickAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618D69D1FCBDFC300E7F54A /* Debug */,
+				A618D69E1FCBDFC300E7F54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A618D69F1FCBDFC300E7F54A /* Build configuration list for PBXNativeTarget "day22_3DTouchQuickActionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618D6A01FCBDFC300E7F54A /* Debug */,
+				A618D6A11FCBDFC300E7F54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A618D6A21FCBDFC300E7F54A /* Build configuration list for PBXNativeTarget "day22_3DTouchQuickActionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A618D6A31FCBDFC300E7F54A /* Debug */,
+				A618D6A41FCBDFC300E7F54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A618D66C1FCBDFC300E7F54A /* Project object */;
+}

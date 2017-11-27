@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCDF4F4A1FC850A800C7D48B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF4F491FC850A800C7D48B /* AppDelegate.swift */; };
+		DCDF4F4C1FC850A800C7D48B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF4F4B1FC850A800C7D48B /* ViewController.swift */; };
+		DCDF4F4F1FC850A800C7D48B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDF4F4D1FC850A800C7D48B /* Main.storyboard */; };
+		DCDF4F511FC850A800C7D48B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDF4F501FC850A800C7D48B /* Assets.xcassets */; };
+		DCDF4F541FC850A800C7D48B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDF4F521FC850A800C7D48B /* LaunchScreen.storyboard */; };
+		DCDF4F5F1FC850A800C7D48B /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF4F5E1FC850A800C7D48B /* ______Tests.swift */; };
+		DCDF4F6A1FC850A800C7D48B /* ______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF4F691FC850A800C7D48B /* ______UITests.swift */; };
+		DCDF4F781FC8531A00C7D48B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDF4F771FC8531A00C7D48B /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCDF4F5B1FC850A800C7D48B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCDF4F3E1FC850A800C7D48B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCDF4F451FC850A800C7D48B;
+			remoteInfo = "简约登录界面";
+		};
+		DCDF4F661FC850A800C7D48B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCDF4F3E1FC850A800C7D48B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCDF4F451FC850A800C7D48B;
+			remoteInfo = "简约登录界面";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCDF4F461FC850A800C7D48B /* 简约登录界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "简约登录界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDF4F491FC850A800C7D48B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCDF4F4B1FC850A800C7D48B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCDF4F4E1FC850A800C7D48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCDF4F501FC850A800C7D48B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCDF4F531FC850A800C7D48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCDF4F551FC850A800C7D48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDF4F5A1FC850A800C7D48B /* 简约登录界面Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "简约登录界面Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDF4F5E1FC850A800C7D48B /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		DCDF4F601FC850A800C7D48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDF4F651FC850A800C7D48B /* 简约登录界面UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "简约登录界面UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDF4F691FC850A800C7D48B /* ______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______UITests.swift"; sourceTree = "<group>"; };
+		DCDF4F6B1FC850A800C7D48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDF4F771FC8531A00C7D48B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCDF4F431FC850A800C7D48B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF4F571FC850A800C7D48B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF4F621FC850A800C7D48B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCDF4F3D1FC850A800C7D48B = {
+			isa = PBXGroup;
+			children = (
+				DCDF4F481FC850A800C7D48B /* 简约登录界面 */,
+				DCDF4F5D1FC850A800C7D48B /* 简约登录界面Tests */,
+				DCDF4F681FC850A800C7D48B /* 简约登录界面UITests */,
+				DCDF4F471FC850A800C7D48B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCDF4F471FC850A800C7D48B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF4F461FC850A800C7D48B /* 简约登录界面.app */,
+				DCDF4F5A1FC850A800C7D48B /* 简约登录界面Tests.xctest */,
+				DCDF4F651FC850A800C7D48B /* 简约登录界面UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCDF4F481FC850A800C7D48B /* 简约登录界面 */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF4F491FC850A800C7D48B /* AppDelegate.swift */,
+				DCDF4F4B1FC850A800C7D48B /* ViewController.swift */,
+				DCDF4F771FC8531A00C7D48B /* LoginViewController.swift */,
+				DCDF4F4D1FC850A800C7D48B /* Main.storyboard */,
+				DCDF4F501FC850A800C7D48B /* Assets.xcassets */,
+				DCDF4F521FC850A800C7D48B /* LaunchScreen.storyboard */,
+				DCDF4F551FC850A800C7D48B /* Info.plist */,
+			);
+			path = "简约登录界面";
+			sourceTree = "<group>";
+		};
+		DCDF4F5D1FC850A800C7D48B /* 简约登录界面Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF4F5E1FC850A800C7D48B /* ______Tests.swift */,
+				DCDF4F601FC850A800C7D48B /* Info.plist */,
+			);
+			path = "简约登录界面Tests";
+			sourceTree = "<group>";
+		};
+		DCDF4F681FC850A800C7D48B /* 简约登录界面UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF4F691FC850A800C7D48B /* ______UITests.swift */,
+				DCDF4F6B1FC850A800C7D48B /* Info.plist */,
+			);
+			path = "简约登录界面UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCDF4F451FC850A800C7D48B /* 简约登录界面 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDF4F6E1FC850A800C7D48B /* Build configuration list for PBXNativeTarget "简约登录界面" */;
+			buildPhases = (
+				DCDF4F421FC850A800C7D48B /* Sources */,
+				DCDF4F431FC850A800C7D48B /* Frameworks */,
+				DCDF4F441FC850A800C7D48B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "简约登录界面";
+			productName = "简约登录界面";
+			productReference = DCDF4F461FC850A800C7D48B /* 简约登录界面.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCDF4F591FC850A800C7D48B /* 简约登录界面Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDF4F711FC850A800C7D48B /* Build configuration list for PBXNativeTarget "简约登录界面Tests" */;
+			buildPhases = (
+				DCDF4F561FC850A800C7D48B /* Sources */,
+				DCDF4F571FC850A800C7D48B /* Frameworks */,
+				DCDF4F581FC850A800C7D48B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCDF4F5C1FC850A800C7D48B /* PBXTargetDependency */,
+			);
+			name = "简约登录界面Tests";
+			productName = "简约登录界面Tests";
+			productReference = DCDF4F5A1FC850A800C7D48B /* 简约登录界面Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCDF4F641FC850A800C7D48B /* 简约登录界面UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDF4F741FC850A800C7D48B /* Build configuration list for PBXNativeTarget "简约登录界面UITests" */;
+			buildPhases = (
+				DCDF4F611FC850A800C7D48B /* Sources */,
+				DCDF4F621FC850A800C7D48B /* Frameworks */,
+				DCDF4F631FC850A800C7D48B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCDF4F671FC850A800C7D48B /* PBXTargetDependency */,
+			);
+			name = "简约登录界面UITests";
+			productName = "简约登录界面UITests";
+			productReference = DCDF4F651FC850A800C7D48B /* 简约登录界面UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCDF4F3E1FC850A800C7D48B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "yh j";
+				TargetAttributes = {
+					DCDF4F451FC850A800C7D48B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					DCDF4F591FC850A800C7D48B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCDF4F451FC850A800C7D48B;
+					};
+					DCDF4F641FC850A800C7D48B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCDF4F451FC850A800C7D48B;
+					};
+				};
+			};
+			buildConfigurationList = DCDF4F411FC850A800C7D48B /* Build configuration list for PBXProject "简约登录界面" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCDF4F3D1FC850A800C7D48B;
+			productRefGroup = DCDF4F471FC850A800C7D48B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCDF4F451FC850A800C7D48B /* 简约登录界面 */,
+				DCDF4F591FC850A800C7D48B /* 简约登录界面Tests */,
+				DCDF4F641FC850A800C7D48B /* 简约登录界面UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCDF4F441FC850A800C7D48B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDF4F541FC850A800C7D48B /* LaunchScreen.storyboard in Resources */,
+				DCDF4F511FC850A800C7D48B /* Assets.xcassets in Resources */,
+				DCDF4F4F1FC850A800C7D48B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF4F581FC850A800C7D48B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF4F631FC850A800C7D48B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCDF4F421FC850A800C7D48B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDF4F781FC8531A00C7D48B /* LoginViewController.swift in Sources */,
+				DCDF4F4C1FC850A800C7D48B /* ViewController.swift in Sources */,
+				DCDF4F4A1FC850A800C7D48B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF4F561FC850A800C7D48B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDF4F5F1FC850A800C7D48B /* ______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDF4F611FC850A800C7D48B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDF4F6A1FC850A800C7D48B /* ______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCDF4F5C1FC850A800C7D48B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCDF4F451FC850A800C7D48B /* 简约登录界面 */;
+			targetProxy = DCDF4F5B1FC850A800C7D48B /* PBXContainerItemProxy */;
+		};
+		DCDF4F671FC850A800C7D48B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCDF4F451FC850A800C7D48B /* 简约登录界面 */;
+			targetProxy = DCDF4F661FC850A800C7D48B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCDF4F4D1FC850A800C7D48B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDF4F4E1FC850A800C7D48B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCDF4F521FC850A800C7D48B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDF4F531FC850A800C7D48B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCDF4F6C1FC850A800C7D48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCDF4F6D1FC850A800C7D48B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCDF4F6F1FC850A800C7D48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "简约登录界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DCDF4F701FC850A800C7D48B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "简约登录界面/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DCDF4F721FC850A800C7D48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "简约登录界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/简约登录界面.app/简约登录界面";
+			};
+			name = Debug;
+		};
+		DCDF4F731FC850A800C7D48B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "简约登录界面Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/简约登录界面.app/简约登录界面";
+			};
+			name = Release;
+		};
+		DCDF4F751FC850A800C7D48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "简约登录界面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "简约登录界面";
+			};
+			name = Debug;
+		};
+		DCDF4F761FC850A800C7D48B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "简约登录界面UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "简约登录界面";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCDF4F411FC850A800C7D48B /* Build configuration list for PBXProject "简约登录界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDF4F6C1FC850A800C7D48B /* Debug */,
+				DCDF4F6D1FC850A800C7D48B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDF4F6E1FC850A800C7D48B /* Build configuration list for PBXNativeTarget "简约登录界面" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDF4F6F1FC850A800C7D48B /* Debug */,
+				DCDF4F701FC850A800C7D48B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCDF4F711FC850A800C7D48B /* Build configuration list for PBXNativeTarget "简约登录界面Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDF4F721FC850A800C7D48B /* Debug */,
+				DCDF4F731FC850A800C7D48B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCDF4F741FC850A800C7D48B /* Build configuration list for PBXNativeTarget "简约登录界面UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDF4F751FC850A800C7D48B /* Debug */,
+				DCDF4F761FC850A800C7D48B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCDF4F3E1FC850A800C7D48B /* Project object */;
+}

@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6D151BD1FB40A1B007B9E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D151BC1FB40A1B007B9E85 /* AppDelegate.swift */; };
+		A6D151BF1FB40A1B007B9E85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D151BE1FB40A1B007B9E85 /* ViewController.swift */; };
+		A6D151C21FB40A1B007B9E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D151C01FB40A1B007B9E85 /* Main.storyboard */; };
+		A6D151C41FB40A1B007B9E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D151C31FB40A1B007B9E85 /* Assets.xcassets */; };
+		A6D151C71FB40A1B007B9E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D151C51FB40A1B007B9E85 /* LaunchScreen.storyboard */; };
+		A6D151D21FB40A1B007B9E85 /* _______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D151D11FB40A1B007B9E85 /* _______Tests.swift */; };
+		A6D151DD1FB40A1B007B9E85 /* _______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D151DC1FB40A1B007B9E85 /* _______UITests.swift */; };
+		A6D151EB1FB40A42007B9E85 /* CustomFont.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = A6D151EA1FB40A42007B9E85 /* CustomFont.xcdatamodel */; };
+		A6E643A21FB41C90006887B6 /* Gaspar Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6E6439D1FB41C90006887B6 /* Gaspar Regular.otf */; };
+		A6E643A31FB41C90006887B6 /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6E6439E1FB41C90006887B6 /* MFJinHei_Noncommercial-Regular.ttf */; };
+		A6E643A41FB41C90006887B6 /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6E6439F1FB41C90006887B6 /* MFTongXin_Noncommercial-Regular.ttf */; };
+		A6E643A51FB41C90006887B6 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6E643A01FB41C90006887B6 /* MFZhiHei_Noncommercial-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6D151CE1FB40A1B007B9E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6D151B11FB40A1B007B9E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6D151B81FB40A1B007B9E85;
+			remoteInfo = "第二天字体切换";
+		};
+		A6D151D91FB40A1B007B9E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6D151B11FB40A1B007B9E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6D151B81FB40A1B007B9E85;
+			remoteInfo = "第二天字体切换";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6D151B91FB40A1B007B9E85 /* 第二天字体切换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "第二天字体切换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D151BC1FB40A1B007B9E85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6D151BE1FB40A1B007B9E85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6D151C11FB40A1B007B9E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6D151C31FB40A1B007B9E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6D151C61FB40A1B007B9E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6D151C81FB40A1B007B9E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D151CD1FB40A1B007B9E85 /* 第二天字体切换Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "第二天字体切换Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D151D11FB40A1B007B9E85 /* _______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______Tests.swift"; sourceTree = "<group>"; };
+		A6D151D31FB40A1B007B9E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D151D81FB40A1B007B9E85 /* 第二天字体切换UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "第二天字体切换UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D151DC1FB40A1B007B9E85 /* _______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______UITests.swift"; sourceTree = "<group>"; };
+		A6D151DE1FB40A1B007B9E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D151EA1FB40A42007B9E85 /* CustomFont.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CustomFont.xcdatamodel; sourceTree = "<group>"; };
+		A6E6439D1FB41C90006887B6 /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaspar Regular.otf"; sourceTree = "<group>"; };
+		A6E6439E1FB41C90006887B6 /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		A6E6439F1FB41C90006887B6 /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		A6E643A01FB41C90006887B6 /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6D151B61FB40A1B007B9E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D151CA1FB40A1B007B9E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D151D51FB40A1B007B9E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6D151B01FB40A1B007B9E85 = {
+			isa = PBXGroup;
+			children = (
+				A6D151BB1FB40A1B007B9E85 /* 第二天字体切换 */,
+				A6D151D01FB40A1B007B9E85 /* 第二天字体切换Tests */,
+				A6D151DB1FB40A1B007B9E85 /* 第二天字体切换UITests */,
+				A6D151BA1FB40A1B007B9E85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6D151BA1FB40A1B007B9E85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6D151B91FB40A1B007B9E85 /* 第二天字体切换.app */,
+				A6D151CD1FB40A1B007B9E85 /* 第二天字体切换Tests.xctest */,
+				A6D151D81FB40A1B007B9E85 /* 第二天字体切换UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6D151BB1FB40A1B007B9E85 /* 第二天字体切换 */ = {
+			isa = PBXGroup;
+			children = (
+				A6D151BC1FB40A1B007B9E85 /* AppDelegate.swift */,
+				A6D151BE1FB40A1B007B9E85 /* ViewController.swift */,
+				A6D151C01FB40A1B007B9E85 /* Main.storyboard */,
+				A6D151C31FB40A1B007B9E85 /* Assets.xcassets */,
+				A6E643A11FB41C90006887B6 /* Fonts */,
+				A6D151C51FB40A1B007B9E85 /* LaunchScreen.storyboard */,
+				A6D151C81FB40A1B007B9E85 /* Info.plist */,
+				A6D151EA1FB40A42007B9E85 /* CustomFont.xcdatamodel */,
+			);
+			path = "第二天字体切换";
+			sourceTree = "<group>";
+		};
+		A6D151D01FB40A1B007B9E85 /* 第二天字体切换Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A6D151D11FB40A1B007B9E85 /* _______Tests.swift */,
+				A6D151D31FB40A1B007B9E85 /* Info.plist */,
+			);
+			path = "第二天字体切换Tests";
+			sourceTree = "<group>";
+		};
+		A6D151DB1FB40A1B007B9E85 /* 第二天字体切换UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6D151DC1FB40A1B007B9E85 /* _______UITests.swift */,
+				A6D151DE1FB40A1B007B9E85 /* Info.plist */,
+			);
+			path = "第二天字体切换UITests";
+			sourceTree = "<group>";
+		};
+		A6E643A11FB41C90006887B6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A6E6439D1FB41C90006887B6 /* Gaspar Regular.otf */,
+				A6E6439E1FB41C90006887B6 /* MFJinHei_Noncommercial-Regular.ttf */,
+				A6E6439F1FB41C90006887B6 /* MFTongXin_Noncommercial-Regular.ttf */,
+				A6E643A01FB41C90006887B6 /* MFZhiHei_Noncommercial-Regular.ttf */,
+			);
+			name = Fonts;
+			path = "../../../../Downloads/Code/30DaysofSwift-master/Project 02 - CustomFont/CustomFont";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6D151B81FB40A1B007B9E85 /* 第二天字体切换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D151E11FB40A1B007B9E85 /* Build configuration list for PBXNativeTarget "第二天字体切换" */;
+			buildPhases = (
+				A6D151B51FB40A1B007B9E85 /* Sources */,
+				A6D151B61FB40A1B007B9E85 /* Frameworks */,
+				A6D151B71FB40A1B007B9E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第二天字体切换";
+			productName = "第二天字体切换";
+			productReference = A6D151B91FB40A1B007B9E85 /* 第二天字体切换.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6D151CC1FB40A1B007B9E85 /* 第二天字体切换Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D151E41FB40A1B007B9E85 /* Build configuration list for PBXNativeTarget "第二天字体切换Tests" */;
+			buildPhases = (
+				A6D151C91FB40A1B007B9E85 /* Sources */,
+				A6D151CA1FB40A1B007B9E85 /* Frameworks */,
+				A6D151CB1FB40A1B007B9E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6D151CF1FB40A1B007B9E85 /* PBXTargetDependency */,
+			);
+			name = "第二天字体切换Tests";
+			productName = "第二天字体切换Tests";
+			productReference = A6D151CD1FB40A1B007B9E85 /* 第二天字体切换Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6D151D71FB40A1B007B9E85 /* 第二天字体切换UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D151E71FB40A1B007B9E85 /* Build configuration list for PBXNativeTarget "第二天字体切换UITests" */;
+			buildPhases = (
+				A6D151D41FB40A1B007B9E85 /* Sources */,
+				A6D151D51FB40A1B007B9E85 /* Frameworks */,
+				A6D151D61FB40A1B007B9E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6D151DA1FB40A1B007B9E85 /* PBXTargetDependency */,
+			);
+			name = "第二天字体切换UITests";
+			productName = "第二天字体切换UITests";
+			productReference = A6D151D81FB40A1B007B9E85 /* 第二天字体切换UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6D151B11FB40A1B007B9E85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yihui;
+				TargetAttributes = {
+					A6D151B81FB40A1B007B9E85 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A6D151CC1FB40A1B007B9E85 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6D151B81FB40A1B007B9E85;
+					};
+					A6D151D71FB40A1B007B9E85 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6D151B81FB40A1B007B9E85;
+					};
+				};
+			};
+			buildConfigurationList = A6D151B41FB40A1B007B9E85 /* Build configuration list for PBXProject "第二天字体切换" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6D151B01FB40A1B007B9E85;
+			productRefGroup = A6D151BA1FB40A1B007B9E85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6D151B81FB40A1B007B9E85 /* 第二天字体切换 */,
+				A6D151CC1FB40A1B007B9E85 /* 第二天字体切换Tests */,
+				A6D151D71FB40A1B007B9E85 /* 第二天字体切换UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6D151B71FB40A1B007B9E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D151C71FB40A1B007B9E85 /* LaunchScreen.storyboard in Resources */,
+				A6E643A21FB41C90006887B6 /* Gaspar Regular.otf in Resources */,
+				A6E643A51FB41C90006887B6 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
+				A6E643A31FB41C90006887B6 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
+				A6D151C41FB40A1B007B9E85 /* Assets.xcassets in Resources */,
+				A6E643A41FB41C90006887B6 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
+				A6D151C21FB40A1B007B9E85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D151CB1FB40A1B007B9E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D151D61FB40A1B007B9E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6D151B51FB40A1B007B9E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D151BF1FB40A1B007B9E85 /* ViewController.swift in Sources */,
+				A6D151BD1FB40A1B007B9E85 /* AppDelegate.swift in Sources */,
+				A6D151EB1FB40A42007B9E85 /* CustomFont.xcdatamodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D151C91FB40A1B007B9E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D151D21FB40A1B007B9E85 /* _______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D151D41FB40A1B007B9E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D151DD1FB40A1B007B9E85 /* _______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6D151CF1FB40A1B007B9E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6D151B81FB40A1B007B9E85 /* 第二天字体切换 */;
+			targetProxy = A6D151CE1FB40A1B007B9E85 /* PBXContainerItemProxy */;
+		};
+		A6D151DA1FB40A1B007B9E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6D151B81FB40A1B007B9E85 /* 第二天字体切换 */;
+			targetProxy = A6D151D91FB40A1B007B9E85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6D151C01FB40A1B007B9E85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D151C11FB40A1B007B9E85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6D151C51FB40A1B007B9E85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6D151C61FB40A1B007B9E85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6D151DF1FB40A1B007B9E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6D151E01FB40A1B007B9E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6D151E21FB40A1B007B9E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "第二天字体切换/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huig.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A6D151E31FB40A1B007B9E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "第二天字体切换/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huig.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A6D151E51FB40A1B007B9E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "第二天字体切换Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huig.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/第二天字体切换.app/第二天字体切换";
+			};
+			name = Debug;
+		};
+		A6D151E61FB40A1B007B9E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "第二天字体切换Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huig.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/第二天字体切换.app/第二天字体切换";
+			};
+			name = Release;
+		};
+		A6D151E81FB40A1B007B9E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "第二天字体切换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huig.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "第二天字体切换";
+			};
+			name = Debug;
+		};
+		A6D151E91FB40A1B007B9E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "第二天字体切换UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huig.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "第二天字体切换";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6D151B41FB40A1B007B9E85 /* Build configuration list for PBXProject "第二天字体切换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D151DF1FB40A1B007B9E85 /* Debug */,
+				A6D151E01FB40A1B007B9E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D151E11FB40A1B007B9E85 /* Build configuration list for PBXNativeTarget "第二天字体切换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D151E21FB40A1B007B9E85 /* Debug */,
+				A6D151E31FB40A1B007B9E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D151E41FB40A1B007B9E85 /* Build configuration list for PBXNativeTarget "第二天字体切换Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D151E51FB40A1B007B9E85 /* Debug */,
+				A6D151E61FB40A1B007B9E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D151E71FB40A1B007B9E85 /* Build configuration list for PBXNativeTarget "第二天字体切换UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D151E81FB40A1B007B9E85 /* Debug */,
+				A6D151E91FB40A1B007B9E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6D151B11FB40A1B007B9E85 /* Project object */;
+}

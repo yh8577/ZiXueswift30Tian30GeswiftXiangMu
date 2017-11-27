@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A655D7B01FC700950081B935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A655D7AF1FC700950081B935 /* AppDelegate.swift */; };
+		A655D7B21FC700950081B935 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A655D7B11FC700950081B935 /* ViewController.swift */; };
+		A655D7B51FC700950081B935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A655D7B31FC700950081B935 /* Main.storyboard */; };
+		A655D7B71FC700950081B935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A655D7B61FC700950081B935 /* Assets.xcassets */; };
+		A655D7BA1FC700950081B935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A655D7B81FC700950081B935 /* LaunchScreen.storyboard */; };
+		A655D7C51FC700950081B935 /* ImageScrollerEffect______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A655D7C41FC700950081B935 /* ImageScrollerEffect______Tests.swift */; };
+		A655D7D01FC700950081B935 /* ImageScrollerEffect______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A655D7CF1FC700950081B935 /* ImageScrollerEffect______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A655D7C11FC700950081B935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A655D7A41FC700950081B935 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A655D7AB1FC700950081B935;
+			remoteInfo = "ImageScrollerEffect图片放大缩小";
+		};
+		A655D7CC1FC700950081B935 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A655D7A41FC700950081B935 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A655D7AB1FC700950081B935;
+			remoteInfo = "ImageScrollerEffect图片放大缩小";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A655D7AC1FC700950081B935 /* ImageScrollerEffect图片放大缩小.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageScrollerEffect图片放大缩小.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A655D7AF1FC700950081B935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A655D7B11FC700950081B935 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A655D7B41FC700950081B935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A655D7B61FC700950081B935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A655D7B91FC700950081B935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A655D7BB1FC700950081B935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A655D7C01FC700950081B935 /* ImageScrollerEffect图片放大缩小Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImageScrollerEffect图片放大缩小Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A655D7C41FC700950081B935 /* ImageScrollerEffect______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageScrollerEffect______Tests.swift"; sourceTree = "<group>"; };
+		A655D7C61FC700950081B935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A655D7CB1FC700950081B935 /* ImageScrollerEffect图片放大缩小UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImageScrollerEffect图片放大缩小UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A655D7CF1FC700950081B935 /* ImageScrollerEffect______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageScrollerEffect______UITests.swift"; sourceTree = "<group>"; };
+		A655D7D11FC700950081B935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A655D7A91FC700950081B935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A655D7BD1FC700950081B935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A655D7C81FC700950081B935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A655D7A31FC700950081B935 = {
+			isa = PBXGroup;
+			children = (
+				A655D7AE1FC700950081B935 /* ImageScrollerEffect图片放大缩小 */,
+				A655D7C31FC700950081B935 /* ImageScrollerEffect图片放大缩小Tests */,
+				A655D7CE1FC700950081B935 /* ImageScrollerEffect图片放大缩小UITests */,
+				A655D7AD1FC700950081B935 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A655D7AD1FC700950081B935 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A655D7AC1FC700950081B935 /* ImageScrollerEffect图片放大缩小.app */,
+				A655D7C01FC700950081B935 /* ImageScrollerEffect图片放大缩小Tests.xctest */,
+				A655D7CB1FC700950081B935 /* ImageScrollerEffect图片放大缩小UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A655D7AE1FC700950081B935 /* ImageScrollerEffect图片放大缩小 */ = {
+			isa = PBXGroup;
+			children = (
+				A655D7AF1FC700950081B935 /* AppDelegate.swift */,
+				A655D7B11FC700950081B935 /* ViewController.swift */,
+				A655D7B31FC700950081B935 /* Main.storyboard */,
+				A655D7B61FC700950081B935 /* Assets.xcassets */,
+				A655D7B81FC700950081B935 /* LaunchScreen.storyboard */,
+				A655D7BB1FC700950081B935 /* Info.plist */,
+			);
+			path = "ImageScrollerEffect图片放大缩小";
+			sourceTree = "<group>";
+		};
+		A655D7C31FC700950081B935 /* ImageScrollerEffect图片放大缩小Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A655D7C41FC700950081B935 /* ImageScrollerEffect______Tests.swift */,
+				A655D7C61FC700950081B935 /* Info.plist */,
+			);
+			path = "ImageScrollerEffect图片放大缩小Tests";
+			sourceTree = "<group>";
+		};
+		A655D7CE1FC700950081B935 /* ImageScrollerEffect图片放大缩小UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A655D7CF1FC700950081B935 /* ImageScrollerEffect______UITests.swift */,
+				A655D7D11FC700950081B935 /* Info.plist */,
+			);
+			path = "ImageScrollerEffect图片放大缩小UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A655D7AB1FC700950081B935 /* ImageScrollerEffect图片放大缩小 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A655D7D41FC700950081B935 /* Build configuration list for PBXNativeTarget "ImageScrollerEffect图片放大缩小" */;
+			buildPhases = (
+				A655D7A81FC700950081B935 /* Sources */,
+				A655D7A91FC700950081B935 /* Frameworks */,
+				A655D7AA1FC700950081B935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageScrollerEffect图片放大缩小";
+			productName = "ImageScrollerEffect图片放大缩小";
+			productReference = A655D7AC1FC700950081B935 /* ImageScrollerEffect图片放大缩小.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A655D7BF1FC700950081B935 /* ImageScrollerEffect图片放大缩小Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A655D7D71FC700950081B935 /* Build configuration list for PBXNativeTarget "ImageScrollerEffect图片放大缩小Tests" */;
+			buildPhases = (
+				A655D7BC1FC700950081B935 /* Sources */,
+				A655D7BD1FC700950081B935 /* Frameworks */,
+				A655D7BE1FC700950081B935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A655D7C21FC700950081B935 /* PBXTargetDependency */,
+			);
+			name = "ImageScrollerEffect图片放大缩小Tests";
+			productName = "ImageScrollerEffect图片放大缩小Tests";
+			productReference = A655D7C01FC700950081B935 /* ImageScrollerEffect图片放大缩小Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A655D7CA1FC700950081B935 /* ImageScrollerEffect图片放大缩小UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A655D7DA1FC700950081B935 /* Build configuration list for PBXNativeTarget "ImageScrollerEffect图片放大缩小UITests" */;
+			buildPhases = (
+				A655D7C71FC700950081B935 /* Sources */,
+				A655D7C81FC700950081B935 /* Frameworks */,
+				A655D7C91FC700950081B935 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A655D7CD1FC700950081B935 /* PBXTargetDependency */,
+			);
+			name = "ImageScrollerEffect图片放大缩小UITests";
+			productName = "ImageScrollerEffect图片放大缩小UITests";
+			productReference = A655D7CB1FC700950081B935 /* ImageScrollerEffect图片放大缩小UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A655D7A41FC700950081B935 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yihui;
+				TargetAttributes = {
+					A655D7AB1FC700950081B935 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZML32S4D5M;
+						ProvisioningStyle = Automatic;
+					};
+					A655D7BF1FC700950081B935 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZML32S4D5M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A655D7AB1FC700950081B935;
+					};
+					A655D7CA1FC700950081B935 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZML32S4D5M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A655D7AB1FC700950081B935;
+					};
+				};
+			};
+			buildConfigurationList = A655D7A71FC700950081B935 /* Build configuration list for PBXProject "ImageScrollerEffect图片放大缩小" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A655D7A31FC700950081B935;
+			productRefGroup = A655D7AD1FC700950081B935 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A655D7AB1FC700950081B935 /* ImageScrollerEffect图片放大缩小 */,
+				A655D7BF1FC700950081B935 /* ImageScrollerEffect图片放大缩小Tests */,
+				A655D7CA1FC700950081B935 /* ImageScrollerEffect图片放大缩小UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A655D7AA1FC700950081B935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A655D7BA1FC700950081B935 /* LaunchScreen.storyboard in Resources */,
+				A655D7B71FC700950081B935 /* Assets.xcassets in Resources */,
+				A655D7B51FC700950081B935 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A655D7BE1FC700950081B935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A655D7C91FC700950081B935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A655D7A81FC700950081B935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A655D7B21FC700950081B935 /* ViewController.swift in Sources */,
+				A655D7B01FC700950081B935 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A655D7BC1FC700950081B935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A655D7C51FC700950081B935 /* ImageScrollerEffect______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A655D7C71FC700950081B935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A655D7D01FC700950081B935 /* ImageScrollerEffect______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A655D7C21FC700950081B935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A655D7AB1FC700950081B935 /* ImageScrollerEffect图片放大缩小 */;
+			targetProxy = A655D7C11FC700950081B935 /* PBXContainerItemProxy */;
+		};
+		A655D7CD1FC700950081B935 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A655D7AB1FC700950081B935 /* ImageScrollerEffect图片放大缩小 */;
+			targetProxy = A655D7CC1FC700950081B935 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A655D7B31FC700950081B935 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A655D7B41FC700950081B935 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A655D7B81FC700950081B935 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A655D7B91FC700950081B935 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A655D7D21FC700950081B935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A655D7D31FC700950081B935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A655D7D51FC700950081B935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "ImageScrollerEffect图片放大缩小/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.ImageScrollerEffect------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A655D7D61FC700950081B935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "ImageScrollerEffect图片放大缩小/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.ImageScrollerEffect------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A655D7D81FC700950081B935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "ImageScrollerEffect图片放大缩小Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.ImageScrollerEffect------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageScrollerEffect图片放大缩小.app/ImageScrollerEffect图片放大缩小";
+			};
+			name = Debug;
+		};
+		A655D7D91FC700950081B935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "ImageScrollerEffect图片放大缩小Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.ImageScrollerEffect------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageScrollerEffect图片放大缩小.app/ImageScrollerEffect图片放大缩小";
+			};
+			name = Release;
+		};
+		A655D7DB1FC700950081B935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "ImageScrollerEffect图片放大缩小UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.ImageScrollerEffect------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ImageScrollerEffect图片放大缩小";
+			};
+			name = Debug;
+		};
+		A655D7DC1FC700950081B935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZML32S4D5M;
+				INFOPLIST_FILE = "ImageScrollerEffect图片放大缩小UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.ImageScrollerEffect------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ImageScrollerEffect图片放大缩小";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A655D7A71FC700950081B935 /* Build configuration list for PBXProject "ImageScrollerEffect图片放大缩小" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A655D7D21FC700950081B935 /* Debug */,
+				A655D7D31FC700950081B935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A655D7D41FC700950081B935 /* Build configuration list for PBXNativeTarget "ImageScrollerEffect图片放大缩小" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A655D7D51FC700950081B935 /* Debug */,
+				A655D7D61FC700950081B935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A655D7D71FC700950081B935 /* Build configuration list for PBXNativeTarget "ImageScrollerEffect图片放大缩小Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A655D7D81FC700950081B935 /* Debug */,
+				A655D7D91FC700950081B935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A655D7DA1FC700950081B935 /* Build configuration list for PBXNativeTarget "ImageScrollerEffect图片放大缩小UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A655D7DB1FC700950081B935 /* Debug */,
+				A655D7DC1FC700950081B935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A655D7A41FC700950081B935 /* Project object */;
+}

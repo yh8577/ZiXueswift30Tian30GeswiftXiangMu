@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G1036" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraView" customModule="Snapchat_Menu" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraView" destination="QFU-l9-h0T" id="1H8-2G-XTq"/>
+                <outlet property="tempImageView" destination="NC7-eX-pOx" id="gR2-5g-dMB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QFU-l9-h0T">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NC7-eX-pOx">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="NC7-eX-pOx" firstAttribute="leading" secondItem="QFU-l9-h0T" secondAttribute="leading" id="HIv-JE-d4n"/>
+                        <constraint firstAttribute="bottom" secondItem="NC7-eX-pOx" secondAttribute="bottom" id="hXQ-ov-Cgs"/>
+                        <constraint firstItem="NC7-eX-pOx" firstAttribute="top" secondItem="QFU-l9-h0T" secondAttribute="top" id="kVn-f1-y60"/>
+                        <constraint firstAttribute="trailing" secondItem="NC7-eX-pOx" secondAttribute="trailing" id="qcG-UR-xpX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QFU-l9-h0T" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kIL-WK-gmp"/>
+                <constraint firstAttribute="trailing" secondItem="QFU-l9-h0T" secondAttribute="trailing" id="lfd-ip-61G"/>
+                <constraint firstItem="QFU-l9-h0T" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="n4e-a4-KcX"/>
+                <constraint firstAttribute="bottom" secondItem="QFU-l9-h0T" secondAttribute="bottom" id="vTy-R0-YJO"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6A17C5C1FCB1D9C00A1F1BF /* PatternCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A17C5B1FCB1D9C00A1F1BF /* PatternCell.swift */; };
+		A6D369571FCB1B8A00977542 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D369561FCB1B8A00977542 /* TableViewController.swift */; };
+		A6E356AC1FCB1B0A002AA707 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E356AB1FCB1B0A002AA707 /* AppDelegate.swift */; };
+		A6E356B11FCB1B0A002AA707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E356AF1FCB1B0A002AA707 /* Main.storyboard */; };
+		A6E356B31FCB1B0A002AA707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6E356B21FCB1B0A002AA707 /* Assets.xcassets */; };
+		A6E356B61FCB1B0A002AA707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E356B41FCB1B0A002AA707 /* LaunchScreen.storyboard */; };
+		A6E356C11FCB1B0A002AA707 /* day21_SwipeableCell____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E356C01FCB1B0A002AA707 /* day21_SwipeableCell____Tests.swift */; };
+		A6E356CC1FCB1B0A002AA707 /* day21_SwipeableCell____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E356CB1FCB1B0A002AA707 /* day21_SwipeableCell____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6E356BD1FCB1B0A002AA707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6E356A01FCB1B0A002AA707 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6E356A71FCB1B0A002AA707;
+			remoteInfo = "day21_SwipeableCell侧滑按钮";
+		};
+		A6E356C81FCB1B0A002AA707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6E356A01FCB1B0A002AA707 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6E356A71FCB1B0A002AA707;
+			remoteInfo = "day21_SwipeableCell侧滑按钮";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6A17C5B1FCB1D9C00A1F1BF /* PatternCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternCell.swift; sourceTree = "<group>"; };
+		A6D369561FCB1B8A00977542 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A6E356A81FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "day21_SwipeableCell侧滑按钮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E356AB1FCB1B0A002AA707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6E356B01FCB1B0A002AA707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6E356B21FCB1B0A002AA707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6E356B51FCB1B0A002AA707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6E356B71FCB1B0A002AA707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6E356BC1FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "day21_SwipeableCell侧滑按钮Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E356C01FCB1B0A002AA707 /* day21_SwipeableCell____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day21_SwipeableCell____Tests.swift"; sourceTree = "<group>"; };
+		A6E356C21FCB1B0A002AA707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6E356C71FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "day21_SwipeableCell侧滑按钮UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E356CB1FCB1B0A002AA707 /* day21_SwipeableCell____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "day21_SwipeableCell____UITests.swift"; sourceTree = "<group>"; };
+		A6E356CD1FCB1B0A002AA707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6E356A51FCB1B0A002AA707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E356B91FCB1B0A002AA707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E356C41FCB1B0A002AA707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6E3569F1FCB1B0A002AA707 = {
+			isa = PBXGroup;
+			children = (
+				A6E356AA1FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮 */,
+				A6E356BF1FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮Tests */,
+				A6E356CA1FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮UITests */,
+				A6E356A91FCB1B0A002AA707 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6E356A91FCB1B0A002AA707 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6E356A81FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮.app */,
+				A6E356BC1FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮Tests.xctest */,
+				A6E356C71FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6E356AA1FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				A6E356AB1FCB1B0A002AA707 /* AppDelegate.swift */,
+				A6D369561FCB1B8A00977542 /* TableViewController.swift */,
+				A6E356AF1FCB1B0A002AA707 /* Main.storyboard */,
+				A6A17C5B1FCB1D9C00A1F1BF /* PatternCell.swift */,
+				A6E356B21FCB1B0A002AA707 /* Assets.xcassets */,
+				A6E356B41FCB1B0A002AA707 /* LaunchScreen.storyboard */,
+				A6E356B71FCB1B0A002AA707 /* Info.plist */,
+			);
+			path = "day21_SwipeableCell侧滑按钮";
+			sourceTree = "<group>";
+		};
+		A6E356BF1FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A6E356C01FCB1B0A002AA707 /* day21_SwipeableCell____Tests.swift */,
+				A6E356C21FCB1B0A002AA707 /* Info.plist */,
+			);
+			path = "day21_SwipeableCell侧滑按钮Tests";
+			sourceTree = "<group>";
+		};
+		A6E356CA1FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6E356CB1FCB1B0A002AA707 /* day21_SwipeableCell____UITests.swift */,
+				A6E356CD1FCB1B0A002AA707 /* Info.plist */,
+			);
+			path = "day21_SwipeableCell侧滑按钮UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6E356A71FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E356D01FCB1B0A002AA707 /* Build configuration list for PBXNativeTarget "day21_SwipeableCell侧滑按钮" */;
+			buildPhases = (
+				A6E356A41FCB1B0A002AA707 /* Sources */,
+				A6E356A51FCB1B0A002AA707 /* Frameworks */,
+				A6E356A61FCB1B0A002AA707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "day21_SwipeableCell侧滑按钮";
+			productName = "day21_SwipeableCell侧滑按钮";
+			productReference = A6E356A81FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6E356BB1FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E356D31FCB1B0A002AA707 /* Build configuration list for PBXNativeTarget "day21_SwipeableCell侧滑按钮Tests" */;
+			buildPhases = (
+				A6E356B81FCB1B0A002AA707 /* Sources */,
+				A6E356B91FCB1B0A002AA707 /* Frameworks */,
+				A6E356BA1FCB1B0A002AA707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6E356BE1FCB1B0A002AA707 /* PBXTargetDependency */,
+			);
+			name = "day21_SwipeableCell侧滑按钮Tests";
+			productName = "day21_SwipeableCell侧滑按钮Tests";
+			productReference = A6E356BC1FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6E356C61FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6E356D61FCB1B0A002AA707 /* Build configuration list for PBXNativeTarget "day21_SwipeableCell侧滑按钮UITests" */;
+			buildPhases = (
+				A6E356C31FCB1B0A002AA707 /* Sources */,
+				A6E356C41FCB1B0A002AA707 /* Frameworks */,
+				A6E356C51FCB1B0A002AA707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6E356C91FCB1B0A002AA707 /* PBXTargetDependency */,
+			);
+			name = "day21_SwipeableCell侧滑按钮UITests";
+			productName = "day21_SwipeableCell侧滑按钮UITests";
+			productReference = A6E356C71FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6E356A01FCB1B0A002AA707 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = huig;
+				TargetAttributes = {
+					A6E356A71FCB1B0A002AA707 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A6E356BB1FCB1B0A002AA707 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6E356A71FCB1B0A002AA707;
+					};
+					A6E356C61FCB1B0A002AA707 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6E356A71FCB1B0A002AA707;
+					};
+				};
+			};
+			buildConfigurationList = A6E356A31FCB1B0A002AA707 /* Build configuration list for PBXProject "day21_SwipeableCell侧滑按钮" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6E3569F1FCB1B0A002AA707;
+			productRefGroup = A6E356A91FCB1B0A002AA707 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6E356A71FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮 */,
+				A6E356BB1FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮Tests */,
+				A6E356C61FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6E356A61FCB1B0A002AA707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E356B61FCB1B0A002AA707 /* LaunchScreen.storyboard in Resources */,
+				A6E356B31FCB1B0A002AA707 /* Assets.xcassets in Resources */,
+				A6E356B11FCB1B0A002AA707 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E356BA1FCB1B0A002AA707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E356C51FCB1B0A002AA707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6E356A41FCB1B0A002AA707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D369571FCB1B8A00977542 /* TableViewController.swift in Sources */,
+				A6A17C5C1FCB1D9C00A1F1BF /* PatternCell.swift in Sources */,
+				A6E356AC1FCB1B0A002AA707 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E356B81FCB1B0A002AA707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E356C11FCB1B0A002AA707 /* day21_SwipeableCell____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6E356C31FCB1B0A002AA707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E356CC1FCB1B0A002AA707 /* day21_SwipeableCell____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6E356BE1FCB1B0A002AA707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6E356A71FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮 */;
+			targetProxy = A6E356BD1FCB1B0A002AA707 /* PBXContainerItemProxy */;
+		};
+		A6E356C91FCB1B0A002AA707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6E356A71FCB1B0A002AA707 /* day21_SwipeableCell侧滑按钮 */;
+			targetProxy = A6E356C81FCB1B0A002AA707 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6E356AF1FCB1B0A002AA707 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E356B01FCB1B0A002AA707 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6E356B41FCB1B0A002AA707 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6E356B51FCB1B0A002AA707 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6E356CE1FCB1B0A002AA707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6E356CF1FCB1B0A002AA707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6E356D11FCB1B0A002AA707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "day21_SwipeableCell侧滑按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day21-SwipeableCell----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A6E356D21FCB1B0A002AA707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "day21_SwipeableCell侧滑按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day21-SwipeableCell----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A6E356D41FCB1B0A002AA707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "day21_SwipeableCell侧滑按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day21-SwipeableCell----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day21_SwipeableCell侧滑按钮.app/day21_SwipeableCell侧滑按钮";
+			};
+			name = Debug;
+		};
+		A6E356D51FCB1B0A002AA707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "day21_SwipeableCell侧滑按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day21-SwipeableCell----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day21_SwipeableCell侧滑按钮.app/day21_SwipeableCell侧滑按钮";
+			};
+			name = Release;
+		};
+		A6E356D71FCB1B0A002AA707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "day21_SwipeableCell侧滑按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day21-SwipeableCell----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "day21_SwipeableCell侧滑按钮";
+			};
+			name = Debug;
+		};
+		A6E356D81FCB1B0A002AA707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "day21_SwipeableCell侧滑按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day21-SwipeableCell----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "day21_SwipeableCell侧滑按钮";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6E356A31FCB1B0A002AA707 /* Build configuration list for PBXProject "day21_SwipeableCell侧滑按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E356CE1FCB1B0A002AA707 /* Debug */,
+				A6E356CF1FCB1B0A002AA707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E356D01FCB1B0A002AA707 /* Build configuration list for PBXNativeTarget "day21_SwipeableCell侧滑按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E356D11FCB1B0A002AA707 /* Debug */,
+				A6E356D21FCB1B0A002AA707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E356D31FCB1B0A002AA707 /* Build configuration list for PBXNativeTarget "day21_SwipeableCell侧滑按钮Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E356D41FCB1B0A002AA707 /* Debug */,
+				A6E356D51FCB1B0A002AA707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6E356D61FCB1B0A002AA707 /* Build configuration list for PBXNativeTarget "day21_SwipeableCell侧滑按钮UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6E356D71FCB1B0A002AA707 /* Debug */,
+				A6E356D81FCB1B0A002AA707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6E356A01FCB1B0A002AA707 /* Project object */;
+}
