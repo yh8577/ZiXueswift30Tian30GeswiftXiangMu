@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801B9E9F010049ED0471D7E3 /* Pods_day24_MosaicLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BA9C9BF7FFE951DBA15ABD /* Pods_day24_MosaicLayout.framework */; };
+		A6EB5D171FCC633800ABE676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB5D161FCC633800ABE676 /* AppDelegate.swift */; };
+		A6EB5D1C1FCC633800ABE676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EB5D1A1FCC633800ABE676 /* Main.storyboard */; };
+		A6EB5D1E1FCC633800ABE676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EB5D1D1FCC633800ABE676 /* Assets.xcassets */; };
+		A6EB5D211FCC633800ABE676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6EB5D1F1FCC633800ABE676 /* LaunchScreen.storyboard */; };
+		A6EB5D2C1FCC633800ABE676 /* day24_MosaicLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB5D2B1FCC633800ABE676 /* day24_MosaicLayoutTests.swift */; };
+		A6EB5D371FCC633800ABE676 /* day24_MosaicLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB5D361FCC633800ABE676 /* day24_MosaicLayoutUITests.swift */; };
+		A6EB5D451FCC637100ABE676 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB5D441FCC637100ABE676 /* CollectionViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6EB5D281FCC633800ABE676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6EB5D0B1FCC633800ABE676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6EB5D121FCC633800ABE676;
+			remoteInfo = day24_MosaicLayout;
+		};
+		A6EB5D331FCC633800ABE676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6EB5D0B1FCC633800ABE676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6EB5D121FCC633800ABE676;
+			remoteInfo = day24_MosaicLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21BA9C9BF7FFE951DBA15ABD /* Pods_day24_MosaicLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_day24_MosaicLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF1C64A196A2DCBA50706E0 /* Pods-day24_MosaicLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-day24_MosaicLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-day24_MosaicLayout/Pods-day24_MosaicLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		A6EB5D131FCC633800ABE676 /* day24_MosaicLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day24_MosaicLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EB5D161FCC633800ABE676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6EB5D1B1FCC633800ABE676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6EB5D1D1FCC633800ABE676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6EB5D201FCC633800ABE676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6EB5D221FCC633800ABE676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6EB5D271FCC633800ABE676 /* day24_MosaicLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = day24_MosaicLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EB5D2B1FCC633800ABE676 /* day24_MosaicLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day24_MosaicLayoutTests.swift; sourceTree = "<group>"; };
+		A6EB5D2D1FCC633800ABE676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6EB5D321FCC633800ABE676 /* day24_MosaicLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = day24_MosaicLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EB5D361FCC633800ABE676 /* day24_MosaicLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day24_MosaicLayoutUITests.swift; sourceTree = "<group>"; };
+		A6EB5D381FCC633800ABE676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6EB5D441FCC637100ABE676 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		D6B68C10FD99029B2F1D7FFF /* Pods-day24_MosaicLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-day24_MosaicLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-day24_MosaicLayout/Pods-day24_MosaicLayout.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6EB5D101FCC633800ABE676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801B9E9F010049ED0471D7E3 /* Pods_day24_MosaicLayout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EB5D241FCC633800ABE676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EB5D2F1FCC633800ABE676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B4EA1557074D5EAE9BFE01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1C64A196A2DCBA50706E0 /* Pods-day24_MosaicLayout.debug.xcconfig */,
+				D6B68C10FD99029B2F1D7FFF /* Pods-day24_MosaicLayout.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58A100883794660F87DAFAED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21BA9C9BF7FFE951DBA15ABD /* Pods_day24_MosaicLayout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6EB5D0A1FCC633800ABE676 = {
+			isa = PBXGroup;
+			children = (
+				A6EB5D151FCC633800ABE676 /* day24_MosaicLayout */,
+				A6EB5D2A1FCC633800ABE676 /* day24_MosaicLayoutTests */,
+				A6EB5D351FCC633800ABE676 /* day24_MosaicLayoutUITests */,
+				A6EB5D141FCC633800ABE676 /* Products */,
+				02B4EA1557074D5EAE9BFE01 /* Pods */,
+				58A100883794660F87DAFAED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6EB5D141FCC633800ABE676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB5D131FCC633800ABE676 /* day24_MosaicLayout.app */,
+				A6EB5D271FCC633800ABE676 /* day24_MosaicLayoutTests.xctest */,
+				A6EB5D321FCC633800ABE676 /* day24_MosaicLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6EB5D151FCC633800ABE676 /* day24_MosaicLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB5D161FCC633800ABE676 /* AppDelegate.swift */,
+				A6EB5D441FCC637100ABE676 /* CollectionViewController.swift */,
+				A6EB5D1A1FCC633800ABE676 /* Main.storyboard */,
+				A6EB5D1D1FCC633800ABE676 /* Assets.xcassets */,
+				A6EB5D1F1FCC633800ABE676 /* LaunchScreen.storyboard */,
+				A6EB5D221FCC633800ABE676 /* Info.plist */,
+			);
+			path = day24_MosaicLayout;
+			sourceTree = "<group>";
+		};
+		A6EB5D2A1FCC633800ABE676 /* day24_MosaicLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB5D2B1FCC633800ABE676 /* day24_MosaicLayoutTests.swift */,
+				A6EB5D2D1FCC633800ABE676 /* Info.plist */,
+			);
+			path = day24_MosaicLayoutTests;
+			sourceTree = "<group>";
+		};
+		A6EB5D351FCC633800ABE676 /* day24_MosaicLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB5D361FCC633800ABE676 /* day24_MosaicLayoutUITests.swift */,
+				A6EB5D381FCC633800ABE676 /* Info.plist */,
+			);
+			path = day24_MosaicLayoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6EB5D121FCC633800ABE676 /* day24_MosaicLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EB5D3B1FCC633800ABE676 /* Build configuration list for PBXNativeTarget "day24_MosaicLayout" */;
+			buildPhases = (
+				2377E0D7E3F7D8FF35B24EE0 /* [CP] Check Pods Manifest.lock */,
+				A6EB5D0F1FCC633800ABE676 /* Sources */,
+				A6EB5D101FCC633800ABE676 /* Frameworks */,
+				A6EB5D111FCC633800ABE676 /* Resources */,
+				46AEADA397E3D2876922172A /* [CP] Embed Pods Frameworks */,
+				8D04A6E72C1E0EB6361003B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = day24_MosaicLayout;
+			productName = day24_MosaicLayout;
+			productReference = A6EB5D131FCC633800ABE676 /* day24_MosaicLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6EB5D261FCC633800ABE676 /* day24_MosaicLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EB5D3E1FCC633800ABE676 /* Build configuration list for PBXNativeTarget "day24_MosaicLayoutTests" */;
+			buildPhases = (
+				A6EB5D231FCC633800ABE676 /* Sources */,
+				A6EB5D241FCC633800ABE676 /* Frameworks */,
+				A6EB5D251FCC633800ABE676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6EB5D291FCC633800ABE676 /* PBXTargetDependency */,
+			);
+			name = day24_MosaicLayoutTests;
+			productName = day24_MosaicLayoutTests;
+			productReference = A6EB5D271FCC633800ABE676 /* day24_MosaicLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6EB5D311FCC633800ABE676 /* day24_MosaicLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EB5D411FCC633800ABE676 /* Build configuration list for PBXNativeTarget "day24_MosaicLayoutUITests" */;
+			buildPhases = (
+				A6EB5D2E1FCC633800ABE676 /* Sources */,
+				A6EB5D2F1FCC633800ABE676 /* Frameworks */,
+				A6EB5D301FCC633800ABE676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6EB5D341FCC633800ABE676 /* PBXTargetDependency */,
+			);
+			name = day24_MosaicLayoutUITests;
+			productName = day24_MosaicLayoutUITests;
+			productReference = A6EB5D321FCC633800ABE676 /* day24_MosaicLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6EB5D0B1FCC633800ABE676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = jyh;
+				TargetAttributes = {
+					A6EB5D121FCC633800ABE676 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A6EB5D261FCC633800ABE676 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6EB5D121FCC633800ABE676;
+					};
+					A6EB5D311FCC633800ABE676 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6EB5D121FCC633800ABE676;
+					};
+				};
+			};
+			buildConfigurationList = A6EB5D0E1FCC633800ABE676 /* Build configuration list for PBXProject "day24_MosaicLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6EB5D0A1FCC633800ABE676;
+			productRefGroup = A6EB5D141FCC633800ABE676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6EB5D121FCC633800ABE676 /* day24_MosaicLayout */,
+				A6EB5D261FCC633800ABE676 /* day24_MosaicLayoutTests */,
+				A6EB5D311FCC633800ABE676 /* day24_MosaicLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6EB5D111FCC633800ABE676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EB5D211FCC633800ABE676 /* LaunchScreen.storyboard in Resources */,
+				A6EB5D1E1FCC633800ABE676 /* Assets.xcassets in Resources */,
+				A6EB5D1C1FCC633800ABE676 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EB5D251FCC633800ABE676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EB5D301FCC633800ABE676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2377E0D7E3F7D8FF35B24EE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-day24_MosaicLayout-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46AEADA397E3D2876922172A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-day24_MosaicLayout/Pods-day24_MosaicLayout-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMMosaicLayout/FMMosaicLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMMosaicLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-day24_MosaicLayout/Pods-day24_MosaicLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D04A6E72C1E0EB6361003B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-day24_MosaicLayout/Pods-day24_MosaicLayout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6EB5D0F1FCC633800ABE676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EB5D451FCC637100ABE676 /* CollectionViewController.swift in Sources */,
+				A6EB5D171FCC633800ABE676 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EB5D231FCC633800ABE676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EB5D2C1FCC633800ABE676 /* day24_MosaicLayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EB5D2E1FCC633800ABE676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EB5D371FCC633800ABE676 /* day24_MosaicLayoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6EB5D291FCC633800ABE676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6EB5D121FCC633800ABE676 /* day24_MosaicLayout */;
+			targetProxy = A6EB5D281FCC633800ABE676 /* PBXContainerItemProxy */;
+		};
+		A6EB5D341FCC633800ABE676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6EB5D121FCC633800ABE676 /* day24_MosaicLayout */;
+			targetProxy = A6EB5D331FCC633800ABE676 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6EB5D1A1FCC633800ABE676 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EB5D1B1FCC633800ABE676 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6EB5D1F1FCC633800ABE676 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6EB5D201FCC633800ABE676 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6EB5D391FCC633800ABE676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6EB5D3A1FCC633800ABE676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6EB5D3C1FCC633800ABE676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF1C64A196A2DCBA50706E0 /* Pods-day24_MosaicLayout.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = day24_MosaicLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day24-MosaicLayout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A6EB5D3D1FCC633800ABE676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6B68C10FD99029B2F1D7FFF /* Pods-day24_MosaicLayout.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = day24_MosaicLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day24-MosaicLayout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A6EB5D3F1FCC633800ABE676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = day24_MosaicLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day24-MosaicLayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day24_MosaicLayout.app/day24_MosaicLayout";
+			};
+			name = Debug;
+		};
+		A6EB5D401FCC633800ABE676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = day24_MosaicLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day24-MosaicLayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/day24_MosaicLayout.app/day24_MosaicLayout";
+			};
+			name = Release;
+		};
+		A6EB5D421FCC633800ABE676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = day24_MosaicLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day24-MosaicLayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = day24_MosaicLayout;
+			};
+			name = Debug;
+		};
+		A6EB5D431FCC633800ABE676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = day24_MosaicLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huihui.day24-MosaicLayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = day24_MosaicLayout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6EB5D0E1FCC633800ABE676 /* Build configuration list for PBXProject "day24_MosaicLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EB5D391FCC633800ABE676 /* Debug */,
+				A6EB5D3A1FCC633800ABE676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EB5D3B1FCC633800ABE676 /* Build configuration list for PBXNativeTarget "day24_MosaicLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EB5D3C1FCC633800ABE676 /* Debug */,
+				A6EB5D3D1FCC633800ABE676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EB5D3E1FCC633800ABE676 /* Build configuration list for PBXNativeTarget "day24_MosaicLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EB5D3F1FCC633800ABE676 /* Debug */,
+				A6EB5D401FCC633800ABE676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EB5D411FCC633800ABE676 /* Build configuration list for PBXNativeTarget "day24_MosaicLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EB5D421FCC633800ABE676 /* Debug */,
+				A6EB5D431FCC633800ABE676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6EB5D0B1FCC633800ABE676 /* Project object */;
+}
